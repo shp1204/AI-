@@ -53,7 +53,37 @@ members중 누군가에게 contact 할 수 있음
 
 
 
+[ 코딩 테스트 ]
 
+cracking the coding interview
+
+백준
+
+[ 대학원 ] 
+
+http://gradschoolstory.net/ 
+
+https://carpedm20.github.io/ 이 분의 cv 참고
+
+[ 강의 ]
+
+vision : http://cs231n.stanford.edu/
+
+자연어 : http://web.stanford.edu/class/cs224n/
+
+강화학습 : 
+
+Reinforcement Learning: An Introduction 리차드 S. 서튼 과 앤드류 바르토의 책
+
+https://www.youtube.com/channel/UCwkGvF7xKz2E0Lv-fZ9wv2g
+
+머신러닝 : 단단한 머신러닝 ( 책 )
+
+[ 프로젝트 ]
+
+관련 자료 찾는 법 :
+
+sentimental analysis archive 
 
 
 
