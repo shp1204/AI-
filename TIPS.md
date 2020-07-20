@@ -133,9 +133,43 @@ tensor라는 정육면체가 있으면 얘를 svd 처럼 이차원으로 나누�
 
 
 
+## Graph 에서의 추천
 
+node에  input을 넣었을 때, neighbor(추천)와 관계를 맺을까? 아닐까 ?
 
+1 ) common neighbor를 갖고 친구를 추천해줄 수 있다.
 
+2 ) adamic adar : https://neo4j.com/docs/graph-algorithms/current/labs-algorithms/adamic-adar/
+
+누구나 follow하는 정보로서의 가치가 없다 -> 제거
+
+follower 수가 많이 없는데 공통된 친구라면 -> 친구일 확률이 높음
+
+진짜 친구로 생각되는 사람한테 가중치를 줘서 이를 counting하는 것
+
+3 ) RWR : [http://www.incodom.kr/%EA%B8%B0%EA%B3%84%ED%95%99%EC%8A%B5/RWR_algorithm](http://www.incodom.kr/기계학습/RWR_algorithm)
+
+나를 기준으로 주변에 각 node를 계속 보내다보면 어떤 값으로 수렴을 하게 된다.
+
+그럼 좀 더 친밀도가 높은(간선 수가 짧은) 순으로 추천을 해준다.
+
+어떤 기준 노드에서 시작하여 얼마나 연관이 되어있는지에 대해 파악한다.
+
+ex ) 주변에서 변호사를 찾을 때
+
+4 ) DTW : https://hamait.tistory.com/862
+
+sensor1 ~ sensorT : 벡터가 생성이 되는데, 이 때 데이터가 모두 있다는 가정하에 코사인 유사도 / PCC 등을 이용하여 거리를 구할 수 있다.
+
+하지만 보통 공정에서 이런 데이터를 구할 수 없음
+
+길이가 다른 시계열의 유사도를 구하고자할 때 사용
+
+곡선을 늘리고 / 줄이고 / 이동시키고 를 통해서 비슷한 시계열을 똑같게 맞춰줌
+
+ ![image-20200720174959974](TIPS.assets/image-20200720174959974.png)
+
+패턴을 고려하여 시간이 맞지 않을 때의 SIMULARITY를 구할 수 있다.
 
 
 
