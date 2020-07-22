@@ -173,6 +173,13 @@ sensor1 ~ sensorT : 벡터가 생성이 되는데, 이 때 데이터가 모두 �
 
 
 
+## Anomaly Detection, 이상탐지
+
+1 ) anomaly 학습 / anomaly 아닌것 학습
+
+* 문제 : anomaly 데이터가 많지 않음
+* 사이즈가 어느정도 비슷해져야 하는데, anomaly 데이터에 대해 augmentation을 많이 한다.
+
 
 
 
