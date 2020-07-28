@@ -196,3 +196,14 @@ sensor1 ~ sensorT : 벡터가 생성이 되는데, 이 때 데이터가 모두 �
 
   Cross_validation을 구현 ( 경우의 수 포함 )
 
+* 현대차
+
+  첫번 째 value -> 두번째 value 예측 
+
+  두번 째 value -> 세번째 value 예측 ( 60달까지 )
+
+  test value 6개로 다음달의 부품 수 예측 ~~~ 계속 해서 60번째 달의 부품예측
+
+  ( video classification 사용 )
+
+  
