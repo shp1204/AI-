@@ -393,3 +393,33 @@ https://issue7177.tistory.com/31
 ## 고객 주문 패턴 분석 -> 다품종 소량제품 -> SCM 최적화
 
 구글 accelarator에서 선정
+
+## 과거의 경험
+
+### 1 ) 삼성 연구소
+
+반도체들의 데이터가 초당 ? 3TB가 나오는데 버려지는 데이터가 매우 많음
+
+Series한 데이터가 있는데 이를 이미지 처리
+
+map reduce로 개발 / pivoting
+
+분석결함을 찾고 싶었는데 메모리가 너무 많이 들어서 불가능
+
+알고리즘을 새로 만들었음 -> visualization 하려고 하니 100GB이상
+
+그래서 Virtual machine 까지 개발하게됨
+
+https://www.samsungsds.com/global/ko/solutions/off/brig/brighticsAI.html 의 근본이 됨(brighticsAI)
+
+이 프로젝트로 8000억 절감
+
+### 2 ) mediacop
+
+국내 kbs는 9000억 정돈데 거기는 4조
+
+2년 안에 매출을 5%를 올리는 과제 
+
+=> 광고 , 유통 framework을 바꿔서 매출 30% 증가
+
+광고주에게 유리한 쪽으로 진행
